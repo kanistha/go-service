@@ -1,7 +1,7 @@
 package main
 
 import (
-	"go-service/api"
+	"github.com/kanistha/go-service/api"
 	"github.com/gorilla/mux"
 	"log"
 	"net/http"

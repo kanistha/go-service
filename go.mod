@@ -1,4 +1,4 @@
-module go-service
+module github.com/kanistha/go-service
 
 go 1.14
 
