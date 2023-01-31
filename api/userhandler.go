@@ -16,7 +16,7 @@ func Handle(writer http.ResponseWriter, request *http.Request) {
 }
 
 func HandleRequest(msg string) string {
-	fmt.Println("User handler called.", msg)
+	fmt.Println("User handler called....", msg)
 	return "Hello"+msg
 }
 
