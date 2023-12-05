@@ -1,0 +1,16 @@
+labels:
+  - name: architectural
+    patterns:
+      - 'architectural/**/*'
+  - name: major
+    patterns:
+  - name: minor
+    patterns:
+  - name: bugfix
+    patterns:
+  - name: documentation
+    patterns:
+      - 'docs/**/*'
+  - name: dependencies
+    patterns:
+      - 'config/**/*'
