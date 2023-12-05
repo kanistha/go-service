@@ -1,0 +1,20 @@
+name: Labeler
+
+on:
+  pull_request:
+    types:
+      - opened
+      - synchronize
+
+jobs:
+  labeler:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Labeler
+      uses: actions/labeler@v3
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
